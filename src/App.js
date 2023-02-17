@@ -106,7 +106,9 @@ const App = () => {
                 <Route path="/stacked" element={<Stacked />} />
               </Routes>
             </div>
-            <Footer />
+            <div className="flex items-center justify-center">
+              <Footer />
+            </div>
           </div>
         </div>
       </BrowserRouter>
